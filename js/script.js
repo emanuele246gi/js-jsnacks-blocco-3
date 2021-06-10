@@ -60,7 +60,6 @@ function prova(paroleuno,paroledue){
 
 var array1 = ["a", "b", "c",];
 var array2 = ["1", "2", "3",];
-var nuovalista = [];
 
 var output = [array1, array2];
 
