@@ -1,5 +1,33 @@
 // 1.  Si scriva una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b). La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 
+var numeri = [1, 32, 45, 67, 73];
+
+var a = parseInt(prompt('Inserisci un numero minimo 1 massimo ' + numeri.length));
+
+var b = parseInt(prompt('Inserisci un numero massimo ' + numeri.length));
+
+
+while(a > b || b > numeri.length){
+    
+    alert('attenzione, a deve essere minore di b');
+
+    a = parseInt(prompt('Inserisci un numero minimo 1 massimo ' + numeri.length));
+    
+    b = parseInt(prompt('Inserisci un numero massimo ' + numeri.length));
+}
+
+console.log(getRangeArr(numeri, a, b));
+
+function getRangeArr (array, min, max){
+
+    var newNumeri = [];
+
+    for(var i = min - 1; i < max; i++){
+        newNumeri.push(array[i]);
+    }
+
+    return newNumeri;
+}
 
 // ------------------------------------------------------
 
