@@ -58,7 +58,13 @@ function prova(paroleuno,paroledue){
 
 // 3.  Scrivi una funzione che fonda due array (con lo stesso numero di elementi) prendendo alternativamente gli elementi da uno e dall’altro. Es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 
+var array1 = ["a", "b", "c",];
+var array2 = ["1", "2", "3",];
+var nuovalista = [];
 
+var output = [array1, array2];
+
+console.log(output);
 
 // ------------------------------------------------------
 
