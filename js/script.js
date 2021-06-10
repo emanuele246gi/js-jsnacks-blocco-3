@@ -1,5 +1,10 @@
 // 1.  Si scriva una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b). La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 
+
+// ------------------------------------------------------
+
+// 2.  Dare la possibilità di inserire due parole. Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.  Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
+
 var paroleuno = prompt('Inserisci una parola');
 var paroledue = prompt('Inserisci una parola');
 
@@ -20,12 +25,6 @@ function prova(paroleuno,paroledue){
 
     return ris;
 }
-
-// ------------------------------------------------------
-
-// 2.  Dare la possibilità di inserire due parole. Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.  Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
-
-
 
 // ------------------------------------------------------
 
